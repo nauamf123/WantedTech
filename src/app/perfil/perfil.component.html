@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Aluno</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c2decd3630.js" crossorigin="anonymous"></script>
+    <style>
+       .foto-perfil {
+      height:170px;
+      width:auto;
+      max-width:100%;
+      border-radius:50% ; 
+
+       }
+       .corprimaria{
+         background-color: rgb(177, 36, 36);
+       }
+       .corsecundaria{
+         background-color: rgb(23, 37, 37);
+       }
+       p{
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(0, 0, 0) !important;
+       }
+       .icones{
+         padding-left: 5px;
+       }
+       .titulosbrancos{
+         text-decoration: underline;
+         text-underline-position: below;
+         padding-bottom: 20px;
+         text-transform: uppercase;
+         font-weight: 700px;
+         color:rgb(8, 255, 243)
+       }
+       .titulosverde{
+         text-decoration: underline;
+         text-underline-position: below;
+         padding-bottom: 20px;
+         text-transform: uppercase;
+         font-weight: 700px;
+         color:rgb(216, 14, 0);
+       }
+
+       .textosbrancos{
+
+         color:rgb(255, 255, 255) !important;
+       }
+       .jumbotron{
+          margin-bottom: 0px;
+
+       }
+       .textofooter{
+        margin:0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        }
+        html{
+          scroll-behavior: smooth;
+        }
+
+    </style>
+    </head>
+    <body>
+    <nav class="corsecundaria navbar navbar-expand-lg navbar-light">
+     
+        <a class="navbar-brand textosbrancos" href="#">WantedTech</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+           
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link textosbrancos" href="#Projetos">Projetos</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link textosbrancos" href="#Sobre-mim">Sobre mim</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link textosbrancos" href="#contato">Contato</a>
+              <li>
+              <a class="nav-link textosbrancos" routerLink="/login">Login</a>
+            </li>
+              
+          </ul>
+        </div>
+      </nav>
+      <section class="jumbotron text-center corprimaria">
+        <div class="container">
+         
+          <h1 class="jumbotron-heading">User</h1>
+          <p class="lead textosbrancos">Analista De Suporte na empresa X</p>
+          <p>
+            <a href="#contato" class="btn btn-dark my-2">Contato</a>
+            
+          </p>
+         <a href="https://www.linkedin.com/in/gabriel-kotz-0a460a180/"><i class="fab fa-linkedin"></i></a>
+          <a hr ef="https://github.com/GabrielKotz"><i class="fab fa-gitHub"></i></a>
+          <a href="https://www.facebook.com/gabriel.kotz"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/g4briel_k/?hl=pt-br"><i class="fab fa-instagram"></i></a>
+        </div>
+      </section>
+      <div class="album py-5 bg-light" id="Projetos">
+        <div class="container">
+        <h2 class="jumbotron-heading text-center titulosverde">Projetos</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1731f7cc5ac%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1731f7cc5ac%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Projeto Desenvolvido com as seguintes tecnologias.</p>
+                  <ul>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Postgres</li>
+                    <li>Angular</li>
+                </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="github.com/meuprojeto"><button type="button" class="btn btn-sm btn-outline-success">Vizualizar</button></a>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-6 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1731f7cc5ae%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1731f7cc5ae%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Projeto Desenvolvido com as seguintes tecnologias.</p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    <li>Angular</li>
+                    <li>Javascript</li>
+                </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="github.com/meuprojeto"><button type="button" class="btn btn-sm btn-outline-success">Vizualizar</button></a>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1731f7cc5b0%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1731f7cc5b0%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Projeto Desenvolvido com as seguintes tecnologias .</p>
+                  <ul>
+                    <li>Phyton</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Postgres</li>
+                </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    <a href="github.com/meuprojeto"><button type="button" class="btn btn-sm btn-outline-success">Vizualizar</button></a>
+                      
+                      <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1731f7cc5b3%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1731f7cc5b3%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Projeto Desenvolvido com as seguintes tecnologias.</p>
+                  <ul>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    
+                </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="github.com/meuprojeto"><button type="button" class="btn btn-sm btn-outline-success">Vizualizar</button></a>
+                       <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!--Sobre mim-->
+      <section class="jumbotron text-center corprimaria" id='Sobre-mim'> 
+        <div class="container">
+         <h2 class="jumbotron-heading titulosbrancos">Sobre Mim</h2>  
+         <p class="lead">Meu nome e Gabriel estou no 2 ano do curso de Analise E Desenvolvimento De Sistemas sou uma pessoa de personalidade (etcetc..)gosto de trabalhar em equipe</p>
+        </div>
+      </section>
+      <!--Depoimentos-->
+      <section class="jumbotron text-center">
+          <div class="containter">
+             <h2 class="jumbotron-heading text-center titulosverde">
+            Depoimentos
+             </h2> 
+             <blockquote class="blockquote text-center">
+                <p class="mb-0">Um profissional super focado dedicado e pontual com seus compromissos eticos</p>
+                <footer class="blockquote-footer">Gerente de TI  <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+          </div>
+      </section>
+      <!--Contato-->
+      <section class='corprimaria' id='contato'>
+        <div>
+            <div class="container-fluid">
+                <h3 style="padding-top: 60px;" class="text-center titulosbrancos">Disponivel para oportunidades</h3>
+                <a href="mailto:E-mail"> <h4 style="padding-bottom:60px; margin-bottom: 0px" class="text-center">👉E-mail👈</h4> </a>
+                
+          </div>
+     
+          <!--Footer-->
+        <footer class="text-center corsecundaria textofooter">
+            <p class="textosbrancos"> Copyright Wanted Tech</p>
+           
+        </footer>         
+        
+     

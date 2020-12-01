@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="login.component.css">
+</head>
+<body>
+  <div id="login-container">
+    <h1>Login</h1>
+    <form action="">
+
+      <label for="email">E-mail</label>
+
+      <input type="email" name="email" id="email" placeholder="Digite seu e-email" autocomplete="off" [(ngModel)]="userLogin.email">
+
+      <label for="password">Senha</label>
+
+      <input type="password" name="password" id="password" placeholder="Digite sua senha"  [(ngModel)]="userLogin.senha" >
+
+      <a  routerLink="/login" id="forgot-pass">Esqueceu a senha?</a>
+
+      <Button  (click)="fazerlogin()" >
+        <input  type="submit" value="login" name="login" >
+      </Button>
+
+      
+    </form>
+    <div id="social-container">
+      
+      <p> Acessar pelas redes sociais</p>
+
+      <i class="fa fa-facebook-f"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+
+    <div id="register-container">
+
+    
+      <a routerLink="/cadastro">Criar conta</a>
+    
+   
+    </div>
+    <div>
+   
+    </div>
+  </div>
+</body>
+</html>
